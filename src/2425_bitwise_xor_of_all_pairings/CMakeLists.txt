@@ -1,0 +1,4 @@
+add_executable(2425_bitwise_xor_of_all_pairings driver.cpp solution.cpp)
+target_include_directories(2425_bitwise_xor_of_all_pairings PRIVATE $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>)
+target_link_libraries(2425_bitwise_xor_of_all_pairings PRIVATE nlohmann_json::nlohmann_json)
+target_compile_features(2425_bitwise_xor_of_all_pairings PRIVATE cxx_std_23)

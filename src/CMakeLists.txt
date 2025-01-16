@@ -1,6 +1,8 @@
 add_subdirectory(0126_word_ladder_ii)
 add_subdirectory(0127_word_ladder)
 add_subdirectory(2116_check_if_a_parentheses_string_can_be_valid)
+add_subdirectory(2425_bitwise_xor_of_all_pairings)
+add_subdirectory(2429_minimize_xor)
 add_subdirectory(2657_find_the_prefix_common_array_of_two_arrays)
 add_subdirectory(3223_minimum_length_of_string_after_operations)
 
