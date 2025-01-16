@@ -1,0 +1,4 @@
+add_executable(2657_find_the_prefix_common_array_of_two_arrays driver.cpp solution.cpp)
+target_include_directories(2657_find_the_prefix_common_array_of_two_arrays PRIVATE $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>)
+target_link_libraries(2657_find_the_prefix_common_array_of_two_arrays PRIVATE nlohmann_json::nlohmann_json)
+target_compile_features(2657_find_the_prefix_common_array_of_two_arrays PRIVATE cxx_std_23)

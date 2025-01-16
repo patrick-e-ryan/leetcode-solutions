@@ -11,7 +11,8 @@ from a source to a sink. We can break this problem down into two parts:
 1. Building the graph
 2. Fully traversing the graph.
 
-
+This code is based on the solution to the more challenging 0126, which requires
+a different approach to BFS.
 */
 int Solution::ladderLength(std::string beginWord, std::string endWord,
                            std::vector<std::string> &wordList) {

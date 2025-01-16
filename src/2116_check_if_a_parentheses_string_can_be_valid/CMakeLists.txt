@@ -1,0 +1,4 @@
+add_executable(2116_check_if_a_parentheses_string_can_be_valid driver.cpp solution.cpp)
+target_include_directories(2116_check_if_a_parentheses_string_can_be_valid PRIVATE $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>)
+target_link_libraries(2116_check_if_a_parentheses_string_can_be_valid PRIVATE nlohmann_json::nlohmann_json)
+target_compile_features(2116_check_if_a_parentheses_string_can_be_valid PRIVATE cxx_std_23)

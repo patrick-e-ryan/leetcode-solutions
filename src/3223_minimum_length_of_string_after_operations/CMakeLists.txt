@@ -1,0 +1,4 @@
+add_executable(3223_minimum_length_of_string_after_operations driver.cpp solution.cpp)
+target_include_directories(3223_minimum_length_of_string_after_operations PRIVATE $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>)
+target_link_libraries(3223_minimum_length_of_string_after_operations PRIVATE nlohmann_json::nlohmann_json)
+target_compile_features(3223_minimum_length_of_string_after_operations PRIVATE cxx_std_23)
