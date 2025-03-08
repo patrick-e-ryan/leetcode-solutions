@@ -1,0 +1,4 @@
+add_executable(2683_neighboring_bitwise_xor driver.cpp solution.cpp)
+target_include_directories(2683_neighboring_bitwise_xor PRIVATE $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>)
+target_link_libraries(2683_neighboring_bitwise_xor PRIVATE nlohmann_json::nlohmann_json)
+target_compile_features(2683_neighboring_bitwise_xor PRIVATE cxx_std_23)

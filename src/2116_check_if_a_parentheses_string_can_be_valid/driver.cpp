@@ -1,7 +1,6 @@
 #include "solution.h"
 #include <iostream>
 #include <string>
-#include <vector>
 
 int main(int argc, char *argv[]) {
   // Test Case 1, totally locked, imbalanced
