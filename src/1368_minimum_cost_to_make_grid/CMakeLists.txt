@@ -1,0 +1,4 @@
+add_executable(1368_minimum_cost_to_make_grid driver.cpp solution.cpp)
+target_include_directories(1368_minimum_cost_to_make_grid PRIVATE $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>)
+target_link_libraries(1368_minimum_cost_to_make_grid PRIVATE nlohmann_json::nlohmann_json)
+target_compile_features(1368_minimum_cost_to_make_grid PRIVATE cxx_std_23)
