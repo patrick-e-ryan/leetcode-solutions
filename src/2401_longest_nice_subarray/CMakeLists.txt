@@ -1,0 +1,4 @@
+add_executable(2401_longest_nice_subarray driver.cpp solution.cpp)
+target_include_directories(2401_longest_nice_subarray PRIVATE $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>)
+target_link_libraries(2401_longest_nice_subarray PRIVATE nlohmann_json::nlohmann_json)
+target_compile_features(2401_longest_nice_subarray PRIVATE cxx_std_23)

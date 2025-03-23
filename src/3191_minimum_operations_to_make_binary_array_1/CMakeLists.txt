@@ -1,0 +1,4 @@
+add_executable(3191_minimum_operations_to_make_binary_array_1 driver.cpp solution.cpp)
+target_include_directories(3191_minimum_operations_to_make_binary_array_1 PRIVATE $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>)
+target_link_libraries(3191_minimum_operations_to_make_binary_array_1 PRIVATE nlohmann_json::nlohmann_json)
+target_compile_features(3191_minimum_operations_to_make_binary_array_1 PRIVATE cxx_std_23)

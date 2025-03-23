@@ -1,0 +1,4 @@
+add_executable(2115_find_all_possible_recipes_from_given_supplies driver.cpp solution.cpp)
+target_include_directories(2115_find_all_possible_recipes_from_given_supplies PRIVATE $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>)
+target_link_libraries(2115_find_all_possible_recipes_from_given_supplies PRIVATE nlohmann_json::nlohmann_json)
+target_compile_features(2115_find_all_possible_recipes_from_given_supplies PRIVATE cxx_std_23)
