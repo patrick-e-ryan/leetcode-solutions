@@ -1,5 +1,7 @@
+add_subdirectory(0025_reverse_nodes_in_k_groups)
 add_subdirectory(0126_word_ladder_ii)
 add_subdirectory(0127_word_ladder)
+add_subdirectory(1123_lowest_common_ancestor_of_deepest_leaves)
 add_subdirectory(1368_minimum_cost_to_make_grid)
 add_subdirectory(2115_find_all_possible_recipes_from_given_supplies)
 add_subdirectory(2116_check_if_a_parentheses_string_can_be_valid)

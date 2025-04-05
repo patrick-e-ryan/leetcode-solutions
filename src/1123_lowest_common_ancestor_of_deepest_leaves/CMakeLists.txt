@@ -1,0 +1,4 @@
+add_executable(1123_lowest_common_ancestor_of_deepest_leaves driver.cpp solution.cpp)
+target_include_directories(1123_lowest_common_ancestor_of_deepest_leaves PRIVATE $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>)
+target_link_libraries(1123_lowest_common_ancestor_of_deepest_leaves PRIVATE nlohmann_json::nlohmann_json)
+target_compile_features(1123_lowest_common_ancestor_of_deepest_leaves PRIVATE cxx_std_23)

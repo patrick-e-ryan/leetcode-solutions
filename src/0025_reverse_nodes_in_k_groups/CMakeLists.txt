@@ -1,0 +1,4 @@
+add_executable(0025_reverse_nodes_in_k_groups driver.cpp solution.cpp)
+target_include_directories(0025_reverse_nodes_in_k_groups PRIVATE $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>)
+target_link_libraries(0025_reverse_nodes_in_k_groups PRIVATE nlohmann_json::nlohmann_json)
+target_compile_features(0025_reverse_nodes_in_k_groups PRIVATE cxx_std_23)
